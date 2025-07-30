@@ -60,7 +60,7 @@ const ServicesSection = () => {
           </p>
         </div>
         
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-5 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
             <ServiceCard key={index} {...service} />
           ))}
@@ -76,7 +76,7 @@ const ServicesSection = () => {
             <div className="flex flex-wrap gap-4 justify-center">
               <button className="bg-automotive-orange hover:bg-automotive-orange/90 text-white px-8 py-3 rounded-lg font-semibold transition-colors flex items-center gap-2">
                 <Zap className="h-5 w-5" />
-                Call Emergency: +91 98765 43210
+                Call Emergency: +91 *********
               </button>
             </div>
           </div>
